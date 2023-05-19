@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="resources/logo.png" alt="Logo">
+</p>
+
 # Awesome-LLM-Benchmark
 Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 
