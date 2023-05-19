@@ -137,5 +137,43 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 - MATH (Mathematical problem-solving ability)
 
 ## LLM Datasets/Benchmarks List
+| Benchmark Suite | Year  | Paper | Publishing  | Code  | Benchmark   |
+| --- | --- | --- | --- | --- | --- |
+| CoNLL-2003  | 2003  | [Introduction to the CoNLL-2003 Shared Task:Language-Independent Named Entity Recognition](https://aclanthology.org/W03-0419.pdf) | NAACL |   |   |
+| ROUGE | 2004  | [ROUGE: A Package for Automatic Evaluation of Summaries](https://aclanthology.org/W04-1013.pdf) | WS  | [GitHub](https://github.com/google-research/google-research/tree/master/rouge)  | ROUGE-N, ROUGE-L, ROUGE-W, ROUGE-S Summarization  |
+| IMDb  | 2011  | [Learning Word Vectors for Sentiment Analysis](https://aclanthology.org/P11-1015.pdf) | ACL | [Web](http://ai.stanford.edu/~amaas/data/sentiment/)  | Semantic and sentiment similarities among words |
+| SST | 2013  | [Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](https://aclanthology.org/D13-1170.pdf)  | EMNLP | [Web](https://nlp.stanford.edu/sentiment/)  |   |
+| SNLI  | 2015  | [A large annotated corpus for learning natural language inference](https://aclanthology.org/D15-1075.pdf) | EMNLP |   | Classification  |
+| Story Cloze | 2016  | [A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories](https://aclanthology.org/N16-1098.pdf)  | NAACL | [Web](https://cs.rochester.edu/nlp/rocstories/) | Generic story understanding evaluation (Not available)  |
+| LAMBADA | 2016  | [The LAMBADA dataset:Word prediction requiring a broad discourse context](https://aclanthology.org/P16-1144.pdf)  | ACL | [Web](https://zenodo.org/record/2630551#.YFJVaWT7S_w) | Word prediction task  |
+| SQuAD | 2016/2018 | [SQuAD: 100,000+ Questions for Machine Comprehension of Tex](https://aclanthology.org/D16-1264.pdf) | EMNLP/ACL | [Web](https://rajpurkar.github.io/SQuAD-explorer/)  | Question and Answering  |
+| TriviaQA  | 2017  | [TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension](https://aclanthology.org/P17-1147.pdf) | ACL | [GitHub](https://github.com/mandarjoshi90/triviaqa) | Reading comprehension question and answering  |
+| CNN/DM  | 2017  | [Get To The Point: Summarization with Pointer-Generator Networks](https://aclanthology.org/P17-1099.pdf)  | ACL | [GitHub](https://github.com/abisee/cnn-dailymail) | Summarization |
+| RACE  | 2017  | [RACE: Large-scale ReAding Comprehension Dataset From Examinations](https://aclanthology.org/D17-1082.pdf)  | EMNLP | [GitHub](https://github.com/qizhex/RACE_AR_baselines) | RACE-M, RACE-H, RACE (examinations - word matching, paraphrasing, …)  |
+| SRL | 2017  | [Deep Semantic Role Labeling: What Works and What’s Next](https://aclanthology.org/P17-1044.pdf)  | ACL | [GitHub](https://github.com/luheng/deep_s기) | CoNLL-2005/2012 |
+| SWAG  | 2018  | [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference](http://aclanthology.lst.uni-saarland.de/D18-1009.pdf)  | EMNLP | [Web](https://rowanzellers.com/swag/) | Grounded Commonsense  |
+| FEVER | 2018  | [FEVER: a large-scale dataset for Fact Extraction and VERification](https://aclanthology.org/N18-1074.pdf)  | NAACL | [Web](https://fever.ai/dataset/fever.html)  | Extract |
+| OpenBookQA  | 2018  | [Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering](https://aclanthology.org/D18-1260.pdf)  | EMNLP | [GitHub](https://github.com/allenai/OpenBookQA) | Questioner and an answerer  |
+| QuAC  | 2018  | [QuAC : Question Answering in Context](https://aclanthology.org/D18-1241.pdf) | EMNLP | [Web](https://quac.ai/) | Information seeking dialog  |
+| SciTail | 2018  | [SCITAIL: A Textual Entailment Dataset from Science Question Answering](http://ai2-website.s3.amazonaws.com/publications/scitail-aaai-2018_cameraready.pdf) | AAAI  | [GitHub](https://github.com/allenai/scitail)  | Questioner and an answerer  |
+| XSum  | 2018  | [Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://aclanthology.org/D18-1206.pdf) | EMNLP | [GitHub](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) | BBC articles Summarization  |
+| DROP  | 2019  | [DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs](https://aclanthology.org/N19-1246.pdf) | NACCL | [GitHub](https://github.com/allenai/allennlp-models#tasks-and-components) | Reading Comprehension (AllenNLP)  |
+| GLUE  | 2019  | [GLUE: A multi-task benchmark and analysis platform for natural language understanding](https://openreview.net/pdf?id=rJ4km2R5t7) | ICLR  | [GitHub](https://github.com/nyu-mll/GLUE-baselines) | CoLA, SST-2, MRPC, QQP, STS-B, MNLI, QNLI, RTE, WNLI  |
+| SuperGLUE | 2019  | [SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems](https://w4ngatang.github.io/static/papers/superglue.pdf) | NeurIPS | [GitHub](https://github.com/nyu-mll/jiant)  | BoolQ, CB, COPA, MultiRC, ReCoRD, RTE, WiC, WSC |
+| ARC | 2019  | [On the Measure of Intelligence](https://arxiv.org/pdf/1911.01547.pdf)  | ArXiV | [GitHub](https://github.com/fchollet/ARC/)  | Psychometric intelligence tests |
+| HellaSwag | 2019  | [HellaSwag: Can a Machine Really Finish Your Sentence?](https://aclanthology.org/P19-1472.pdf)  | ACL | [GitHub](https://github.com/rowanz/hellaswag) | Commonsense question  |
+| CoQA  | 2019  | [CoQA: A Conversational Question Answering Challenge](https://aclanthology.org/Q19-1016.pdf)  | TACL  | [Web](https://stanfordnlp.github.io/coqa/)  | Questioner and an answerer  |
+| NaturalQS | 2019  | [Natural Questions: A Benchmark for Question Answering Research](https://aclanthology.org/Q19-1026.pdf) | TACL  | [Web](https://ai.google.com/research/NaturalQuestions/dataset)  | Questioner and an answerer  |
+| ANLI  | 2020  | [Adversarial NLI: A New Benchmark for Natural Language Understanding](https://aclanthology.org/2020.acl-main.441.pdf) | ACL | [GitHub](https://github.com/facebookresearch/anli)  | A1, A2, A3, S |
+| PIQA  | 2020  | [PIQA: Reasoning about Physical Commonsense in Natural Language](https://arxiv.org/pdf/1911.11641.pdf)  | AAAI  | [Web](https://yonatanbisk.com/piqa/)  | Knowledge of physical commonsense |
+| WinoGrande  | 2020  | [WINOGRANDE: An Adversarial Winograd Schema Challenge at Scale](https://arxiv.org/pdf/1907.10641.pdf) | AAAI  | [GitHub](https://github.com/allenai/winogrande) | WSC |
+| WiKiLingua  | 2020  | [WikiLingua: A New Benchmark Dataset for Cross-Lingual Abstractive Summarization](https://aclanthology.org/2020.findings-emnlp.360.pdf) | EMNLP | [GitHub](https://github.com/esdurmus/Wikilingua)  | Cross-Lingual Abstractive |
+| HumanEval | 2021  | [Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374.pdf)  | ArXiv | [GItHub](https://github.com/openai/human-eval)  | Hand-Written Evaluation Set |
+| MATH  | 2021  | [Measuring Mathematical Problem Solving With the MATH Dataset](https://arxiv.org/pdf/2103.03874.pdf)  | NeurIPS | [GitHub](https://github.com/hendrycks/math/)  | Competition mathematics problems  |
+| MBPP  | 2021  | [Program Synthesis with Large Language Models](https://arxiv.org/pdf/2108.07732.pdf)  | CoRR  | [GitHub](https://github.com/google-research/google-research/tree/master/mbpp) | Python Code |
+| MULL  | 2021  | [Measuring massive multitask language understanding](https://openreview.net/pdf?id=d7KBjmI3GmQ) | ICLR  | [GitHub](https://github.com/hendrycks/test) | Massive multitask test consisting of multiple-choice questions  |
+| GSM8K | 2021  | [Training Verifiers to Solve Math Word Problems](https://arxiv.org/pdf/2110.14168.pdf)  | ArXiv | [GitHub](https://github.com/openai/grade-school-math) | Grade school math problems  |
+| BIG-bench | 2022  | [Beyond the imitation game: Quantifying and extrapolating the capabilities of language models](https://arxiv.org/pdf/2206.04615.pdf)  | ArXiv | [GitHub](https://github.com/google/BIG-bench) | 214 Tasks Benchmark |
+| XLSum | 2021  | [XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages](https://aclanthology.org/2021.findings-acl.413.pdf) | ACL | [GitHub](https://github.com/csebuetnlp/xl-sum)  | 1 million professionally annotated article-summary pairs from BBC |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
