@@ -177,3 +177,134 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 | XLSum | 2021  | [XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages](https://aclanthology.org/2021.findings-acl.413.pdf) | ACL | [GitHub](https://github.com/csebuetnlp/xl-sum)  | 1 million professionally annotated article-summary pairs from BBC |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
+### Reference
+- [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
+- [PyTorch torchmetrics](https://torchmetrics.readthedocs.io/en/latest/)
+
+### Question Answering
+| Benchmark | TensorFlow (Datasets) | PyTorch (TorchMetrics)  |
+| --- | --- | --- |
+| ARC | `O` |   |
+| CoQA  | `O` |   |
+| CosmosQA  | `O` |   |
+| MCTACO  | `O` |   |
+| MLQA  | `O` |   |
+| NaturalQuestions  | `O` |   |
+| QASC  | `O` |   |
+| SQuAD | `O` (1.1/2.0) | `O` |
+| TriviaQA  | `O` |   |
+| TydiQA  | `O` |   |
+| WebQuestions  | `O` |   |
+| XQuAD | `O` |   |
+
+### Summarization
+| Benchmark | TensorFlow (Datasets) | PyTorch (TorchMetrics)  |
+| --- | --- | --- |
+| AESLC | `O` |   |
+| BIGPATENT | `O` |   |
+| BillSum | `O` |   |
+| CNN-Dailymail | `O` |   |
+| CORD-19 | `O` |   |
+| Gigaword  | `O` |   |
+| Multi-News  | `O` |   |
+| Newsroom  | `O` |   |
+| Opinion Abstracts | `O` |   |
+| Opinosis  | `O` |   |
+| Reddit (webis-tldr-17-corpus) | `O` |   |
+| Reddit tifu (MMN) | `O` |   |
+| ROUGE | `O` | `O` |
+| Samsum  | `O` |   |
+| Scientific Papers (long-summarization)  | `O` |   |
+| SummScreen  | `O` |   |
+| Wikihow | `O` |   |
+| XSum  | `O` |   |
+
+### Text
+| Benchmark | TensorFlow (Datasets) | PyTorch (TorchMetrics)  |
+| --- | --- | --- |
+| AG News Subset  | `O` |   |
+| ANLI  | `O` |   |
+| BERT  |   | `O` |
+| BLEU  |   | `O` |
+| BLiMP | `O` |   |
+| BoolQ | `O` |   |
+| C4  | `O` |   |
+| CER |   | `O` |
+| CFQ | `O` |   |
+| chrF  |   | `O` |
+| CivilComment (Toicity Classification) | `O` |   |
+| ClincOOS  | `O` |   |
+| CoS-E | `O` |   |
+| Definite Pronoun Resolution | `O` |   |
+| DocNLI  | `O` |   |
+| DolphinNumberWord (SigmaDolphin)  | `O` |   |
+| DROP  | `O` |   |
+| EED |   | `O` |
+| Eraser Multi RC | `O` |   |
+| e-SNLI  | `O` |   |
+| GAP | `O` |   |
+| GEM | `O` |   |
+| GLUE  | `O` |   |
+| GoEmotions  | `O` |   |
+| GPT3  | `O` |   |
+| HellaSwag | `O` |   |
+| IMDb Reviewers  | `O` |   |
+| InfoLM  |   | `O` |
+| IRC Disentanglement | `O` |   |
+| LAMBADA | `O` |   |
+| LibriSpeech ASR | `O` |   |
+| lm1b  | `O` |   |
+| Mathematics | `O` |   |
+| MER |   | `O` |
+| MovieRationales | `O` |   |
+| Multi-NLI | `O` |   |
+| OpenbookQA  | `O` |   |
+| PAWS  | `O` |   |
+| Perplexity  |   | `O` |
+| PG-19 | `O` |   |
+| PIQA  | `O` |   |
+| QA4MRE  | `O` |   |
+| QUAC  | `O` |   |
+| RACE  | `O` |   |
+| Reddit Disentanglement  | `O` |   |
+| Scare BLEU  |   | `O` |
+| Salient Span Wikipedia  | `O` |   |
+| SCAN  | `O` |   |
+| Schema Guided Dialogue  | `O` |   |
+| SciCite | `O` |   |
+| Sentiment140  | `O` |   |
+| SNLI  | `O` |   |
+| Star-CFQ  | `O` |   |
+| StoryCloze  | `O` |   |
+| SuperGLUE | `O` |   |
+| Tiny Shakespeare  | `O` |   |
+| TREC  | `O` |   |
+| Wiki40b | `O` |   |
+| WikiANN (PAN-X) | `O` |   |
+| Widipedia | `O` |   |
+| Winogrande  | `O` |   |
+| Word Error Rate |   | `O` |
+| Word Info |   | `O` |
+| WordNet | `O` |   |
+| WSC273  | `O` |   |
+| XNLI  | `O` |   |
+| XtremePAWS-X  | `O` |   |
+| Xtreme-XNLI | `O` |   |
+| Yelp Polarity Reviews | `O` |   |
+
+### Translate
+| Benchmark | TensorFlow (Datasets) | PyTorch (TorchMetrics)  |
+| --- | --- | --- |
+| FLORES  | `O` |   |
+| OPUS  | `O` |   |
+| ParaCrawl | `O` |   |
+| TED | `O` |   |
+| TER |   | `O` |
+| WMT13 | `O` |   |
+| WMT14 | `O` |   |
+| WMT15 | `O` |   |
+| WMT16 | `O` |   |
+| WMT17 | `O` |   |
+| WMT18 | `O` |   |
+| WMT19 | `O` |   |
+| WMT T2T | `O` |   |
