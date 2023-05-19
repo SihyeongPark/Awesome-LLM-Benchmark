@@ -1,5 +1,5 @@
 # Awesome-LLM-Benchmark
-Awesome-LLM-Benchmark: List of benchmarks for Large-Language Models
+Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 
 
 ## Training and Evaluation Datasets of LLMs
