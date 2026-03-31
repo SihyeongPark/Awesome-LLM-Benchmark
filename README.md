@@ -5,6 +5,9 @@
 # Awesome-LLM-Benchmark
 Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 
+## Resources
+
+- [BenchGecko](https://benchgecko.ai) - Compare LLM benchmark scores across 414 models and 40 benchmarks, with cross-provider pricing and historical performance tracking.
 
 ## Training and Evaluation Datasets/Benchmarks of LLMs
 | Model | Paper | Publishing  | Year  | Training  | Evaluation  |
