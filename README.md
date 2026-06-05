@@ -179,6 +179,7 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 | GSM8K | 2021  | [Training Verifiers to Solve Math Word Problems](https://arxiv.org/pdf/2110.14168.pdf)  | ArXiv | [GitHub](https://github.com/openai/grade-school-math) | Grade school math problems  |
 | BIG-bench | 2022  | [Beyond the imitation game: Quantifying and extrapolating the capabilities of language models](https://arxiv.org/pdf/2206.04615.pdf)  | ArXiv | [GitHub](https://github.com/google/BIG-bench) | 214 Tasks Benchmark |
 | XLSum | 2021  | [XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages](https://aclanthology.org/2021.findings-acl.413.pdf) | ACL | [GitHub](https://github.com/csebuetnlp/xl-sum)  | 1 million professionally annotated article-summary pairs from BBC |
+| REFUTE | 2026 | [REFUTE technical report](https://huggingface.co/datasets/BGPT-OFFICIAL/refute/blob/main/TECHNICAL_REPORT.md) | HF | [Dataset](https://huggingface.co/datasets/BGPT-OFFICIAL/refute) | Scientific critique & epistemic calibration (120 critique items, 74 soundness vignettes) |
 | SecLens | 2026  | [SecLens: Benchmarking LLMs for Security Vulnerability Detection through Stakeholder Lenses](https://arxiv.org/abs/2604.01637) | ArXiv | [GitHub](https://github.com/mattersec-labs/seclens)  | 406 CVE tasks across 12 models and 35 dimensions for security vulnerability detection |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
