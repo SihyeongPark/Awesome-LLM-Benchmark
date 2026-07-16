@@ -186,6 +186,7 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 | REFUTE | 2026 | [REFUTE technical report](https://huggingface.co/datasets/BGPT-OFFICIAL/refute/blob/main/TECHNICAL_REPORT.md) | HF | [Dataset](https://huggingface.co/datasets/BGPT-OFFICIAL/refute) | Scientific critique & epistemic calibration (120 critique items, 74 soundness vignettes) |
 | SecLens | 2026  | [SecLens: Benchmarking LLMs for Security Vulnerability Detection through Stakeholder Lenses](https://arxiv.org/abs/2604.01637) | ArXiv | [GitHub](https://github.com/mattersec-labs/seclens)  | 406 CVE tasks across 12 models and 35 dimensions for security vulnerability detection |
 | PerspectiveGap | 2026 | [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878) | ArXiv | [GitHub](https://github.com/WhymustIhaveaname/PerspectiveGap) | 110 scenarios across 10 topologies for multi-agent orchestration prompting |
+| DocuBench | 2026  |   |   | [GitHub](https://github.com/DocuPipe/DocuBench) | Schema-guided structured extraction from 50 real-world documents; macro-average field accuracy |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
 ### Reference
