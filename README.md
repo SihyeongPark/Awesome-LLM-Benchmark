@@ -187,6 +187,7 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 | SecLens | 2026  | [SecLens: Benchmarking LLMs for Security Vulnerability Detection through Stakeholder Lenses](https://arxiv.org/abs/2604.01637) | ArXiv | [GitHub](https://github.com/mattersec-labs/seclens)  | 406 CVE tasks across 12 models and 35 dimensions for security vulnerability detection |
 | PerspectiveGap | 2026 | [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878) | ArXiv | [GitHub](https://github.com/WhymustIhaveaname/PerspectiveGap) | 110 scenarios across 10 topologies for multi-agent orchestration prompting |
 | DocuBench | 2026  |   |   | [GitHub](https://github.com/DocuPipe/DocuBench) | Schema-guided structured extraction from 50 real-world documents; macro-average field accuracy |
+| ClawBench | 2026 | [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523) | ArXiv | [GitHub](https://github.com/TIGER-AI-Lab/ClawBench) | 283 everyday online tasks across live websites with agentic evaluation and five-layer execution traces |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
 ### Reference
