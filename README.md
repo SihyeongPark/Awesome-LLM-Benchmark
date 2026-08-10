@@ -188,6 +188,7 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 | PerspectiveGap | 2026 | [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878) | ArXiv | [GitHub](https://github.com/WhymustIhaveaname/PerspectiveGap) | 110 scenarios across 10 topologies for multi-agent orchestration prompting |
 | DocuBench | 2026  |   |   | [GitHub](https://github.com/DocuPipe/DocuBench) | Schema-guided structured extraction from 50 real-world documents; macro-average field accuracy |
 | StructEval | 2025 | [StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs](https://arxiv.org/abs/2505.20139) | TMLR | [GitHub](https://github.com/TIGER-AI-Lab/StructEval) | 2,035 examples / 44 tasks across 18 structured formats (JSON, YAML, CSV, XML, TOML + renderable HTML, React, SVG, LaTeX, Mermaid, Vue); generation + conversion paradigms; render/syntax/keyword/VQA scoring |
+| ClawBench | 2026 | [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523) | ArXiv | [GitHub](https://github.com/TIGER-AI-Lab/ClawBench) | 283 everyday online tasks across live websites with agentic evaluation and five-layer execution traces |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
 ### Reference
