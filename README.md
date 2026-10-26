@@ -144,6 +144,10 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 
 - PerspectiveGap (Multi-Agent Orchestration Prompting Benchmark)
 
+**Scientific Research Judgment**
+
+- SciΠvot (Principal-Investigator Judgment Benchmark for AutoResearch Agents)
+
 ## LLM Datasets/Benchmarks List
 | Benchmark Suite | Year  | Paper | Publishing  | Code  | Benchmark   |
 | --- | --- | --- | --- | --- | --- |
@@ -190,6 +194,7 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 | StructEval | 2025 | [StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs](https://arxiv.org/abs/2505.20139) | TMLR | [GitHub](https://github.com/TIGER-AI-Lab/StructEval) | 2,035 examples / 44 tasks across 18 structured formats (JSON, YAML, CSV, XML, TOML + renderable HTML, React, SVG, LaTeX, Mermaid, Vue); generation + conversion paradigms; render/syntax/keyword/VQA scoring |
 | ClawBench | 2026 | [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523) | ArXiv | [GitHub](https://github.com/TIGER-AI-Lab/ClawBench) | 283 everyday online tasks across live websites with agentic evaluation and five-layer execution traces |
 | YYLO Benchmark | 2026  |   |   | [GitHub](https://github.com/yylo-dev/yylo-benchmark) | Longitudinal evaluation and immutable evidence for agent runs: per-attempt isolated workspaces, ordered deterministic and LLM evaluator profiles |
+| SciΠvot | 2026 | [SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents](https://arxiv.org/abs/2610.21082) | ArXiv | [GitHub](https://github.com/AutoResearch-Factory/SciPIvot) | 248 research decisions where senior researchers corrected LLM agents across 26 projects in 6 fields; frontier models prefer the original LLM plan |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
 ### Reference
