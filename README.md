@@ -148,6 +148,10 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 
 - SciΠvot (Principal-Investigator Judgment Benchmark for AutoResearch Agents)
 
+**Cooperative Communication**
+
+- Word Spies (LLM-vs-LLM Team Word-Association Game Benchmark)
+
 ## LLM Datasets/Benchmarks List
 | Benchmark Suite | Year  | Paper | Publishing  | Code  | Benchmark   |
 | --- | --- | --- | --- | --- | --- |
@@ -195,6 +199,7 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 | ClawBench | 2026 | [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523) | ArXiv | [GitHub](https://github.com/TIGER-AI-Lab/ClawBench) | 283 everyday online tasks across live websites with agentic evaluation and five-layer execution traces |
 | YYLO Benchmark | 2026  |   |   | [GitHub](https://github.com/yylo-dev/yylo-benchmark) | Longitudinal evaluation and immutable evidence for agent runs: per-attempt isolated workspaces, ordered deterministic and LLM evaluator profiles |
 | SciΠvot | 2026 | [SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents](https://arxiv.org/abs/2610.21082) | ArXiv | [GitHub](https://github.com/AutoResearch-Factory/SciPIvot) | 248 research decisions where senior researchers corrected LLM agents across 26 projects in 6 fields; frontier models prefer the original LLM plan |
+| Word Spies | 2026 | [Word Spies LLM benchmark dataset card](https://huggingface.co/datasets/daluan/word-spies-llm-benchmark) | HF | [Dataset](https://huggingface.co/datasets/daluan/word-spies-llm-benchmark) | Cooperative clue-giving and guessing in a Codenames-style team game (not affiliated) played model vs model; every clue graded 0-100, every guess scored |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
 ### Reference
