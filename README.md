@@ -200,6 +200,7 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 | YYLO Benchmark | 2026  |   |   | [GitHub](https://github.com/yylo-dev/yylo-benchmark) | Longitudinal evaluation and immutable evidence for agent runs: per-attempt isolated workspaces, ordered deterministic and LLM evaluator profiles |
 | SciΠvot | 2026 | [SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents](https://arxiv.org/abs/2610.21082) | ArXiv | [GitHub](https://github.com/AutoResearch-Factory/SciPIvot) | 248 research decisions where senior researchers corrected LLM agents across 26 projects in 6 fields; frontier models prefer the original LLM plan |
 | Word Spies | 2026 | [Word Spies LLM benchmark dataset card](https://huggingface.co/datasets/daluan/word-spies-llm-benchmark) | HF | [Dataset](https://huggingface.co/datasets/daluan/word-spies-llm-benchmark) | Cooperative clue-giving and guessing in a Codenames-style team game (not affiliated) played model vs model; every clue graded 0-100, every guess scored |
+| WebsiteBench | 2026 |   |   | [GitHub](https://github.com/TIGER-AI-Lab/WebsiteBench) · [Harbor Hub](https://hub.harborframework.com/datasets/websitebench/WebsiteBench) | 70 full-stack website reconstruction tasks from browser exploration, with hidden tests for visual fidelity, user workflows, and state persistence |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
 ### Reference
