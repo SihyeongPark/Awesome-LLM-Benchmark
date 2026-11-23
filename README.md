@@ -152,6 +152,10 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 
 - Word Spies (LLM-vs-LLM Team Word-Association Game Benchmark)
 
+**Theory of Mind**
+
+- Cross-Task Dissociation (VLM Theory of Mind Evaluation)
+
 ## LLM Datasets/Benchmarks List
 | Benchmark Suite | Year  | Paper | Publishing  | Code  | Benchmark   |
 | --- | --- | --- | --- | --- | --- |
@@ -201,7 +205,7 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 | SciΠvot | 2026 | [SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents](https://arxiv.org/abs/2610.21082) | ArXiv | [GitHub](https://github.com/AutoResearch-Factory/SciPIvot) | 248 research decisions where senior researchers corrected LLM agents across 26 projects in 6 fields; frontier models prefer the original LLM plan |
 | Word Spies | 2026 | [Word Spies LLM benchmark dataset card](https://huggingface.co/datasets/daluan/word-spies-llm-benchmark) | HF | [Dataset](https://huggingface.co/datasets/daluan/word-spies-llm-benchmark) | Cooperative clue-giving and guessing in a Codenames-style team game (not affiliated) played model vs model; every clue graded 0-100, every guess scored |
 | WebsiteBench | 2026 |   |   | [GitHub](https://github.com/TIGER-AI-Lab/WebsiteBench) · [Harbor Hub](https://hub.harborframework.com/datasets/websitebench/WebsiteBench) | 70 full-stack website reconstruction tasks from browser exploration, with hidden tests for visual fidelity, user workflows, and state persistence |
-| WMIP | 2026 | [WMIP: A Working-Memory-Inspired Programmable Probe of Cumulative State Tracking in Large Language Models](https://arxiv.org/abs/2603.27343) | ArXiv | [GitHub](https://github.com/dengzhe-hou/WMIP) · [HF](https://huggingface.co/datasets/dengzhe-hou/WMIP) | Cumulative state tracking over up to 100 updates with program-computed answers, 1,080 frozen items in three banks run under several response protocols |
+| Cross-Task Dissociation | 2026 | [Cross-Task Dissociation in Frontier Vision-Language Model Theory of Mind](https://arxiv.org/abs/2608.00261) | EMNLP Findings |   | Evaluates Theory of Mind (ToM) in frontier vision-language models with the Keysar Director Task and the Frith-Happé triangles; no model is close to typical humans on both tasks |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
 ### Reference
