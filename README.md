@@ -156,6 +156,10 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 
 - Cross-Task Dissociation (VLM Theory of Mind Evaluation)
 
+**ESG and Sustainability**
+
+- ESGenius (ESG and Sustainability Question-Answering Benchmark)
+
 ## LLM Datasets/Benchmarks List
 | Benchmark Suite | Year  | Paper | Publishing  | Code  | Benchmark   |
 | --- | --- | --- | --- | --- | --- |
@@ -206,6 +210,7 @@ Awesome-LLM-Benchmark: List of Datasets/benchmarks for Large-Language Models
 | Word Spies | 2026 | [Word Spies LLM benchmark dataset card](https://huggingface.co/datasets/daluan/word-spies-llm-benchmark) | HF | [Dataset](https://huggingface.co/datasets/daluan/word-spies-llm-benchmark) | Cooperative clue-giving and guessing in a Codenames-style team game (not affiliated) played model vs model; every clue graded 0-100, every guess scored |
 | WebsiteBench | 2026 |   |   | [GitHub](https://github.com/TIGER-AI-Lab/WebsiteBench) · [Harbor Hub](https://hub.harborframework.com/datasets/websitebench/WebsiteBench) | 70 full-stack website reconstruction tasks from browser exploration, with hidden tests for visual fidelity, user workflows, and state persistence |
 | Cross-Task Dissociation | 2026 | [Cross-Task Dissociation in Frontier Vision-Language Model Theory of Mind](https://arxiv.org/abs/2608.00261) | EMNLP Findings |   | Evaluates Theory of Mind (ToM) in frontier vision-language models with the Keysar Director Task and the Frith-Happé triangles; no model is close to typical humans on both tasks |
+| ESGenius | 2025 | [ESGenius: Benchmarking LLMs on Environmental, Social, and Governance (ESG) and Sustainability Knowledge](https://arxiv.org/abs/2506.01646) | EMNLP | [GitHub](https://github.com/ANGEL-NTU/ESGenius) | 1,136 expert-validated ESG and sustainability MCQs linked to a 231-document source corpus; zero-shot and RAG evaluation across 50 LLMs |
 
 ## Support for LLM Datasets/Benchmarks in Deep Learning Framewors
 ### Reference
